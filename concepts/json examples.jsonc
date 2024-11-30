@@ -163,6 +163,7 @@
 			}
 		],
 		"fieldSettings": {
+			"cameraTarget": "opponent",
 			"order": ["loser", "hi"],
 			"enemy": "loser",
 			"player": "hi"
