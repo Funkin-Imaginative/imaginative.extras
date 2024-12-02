@@ -6,7 +6,7 @@
 			"camera": {"x": 0, "y": 0},
 			"color": "#31B0D1",
 			"icon": "bf",
-			"holdlength": 4 // putting 0 will have the anims play in full
+			"holdlength": 0.5 // putting 0 will have the anims play in full
 		},
 
 		// specific data for sprites that can bop to the beat
