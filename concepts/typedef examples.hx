@@ -35,7 +35,7 @@ typedef CharacterSection = {
 	var camera:Position;
 	var color:String;
 	var icon:String;
-	var singlength:Float;
+	var holdlength:Float;
 }
 typedef BeatSection = {
 	var interval:Int;
