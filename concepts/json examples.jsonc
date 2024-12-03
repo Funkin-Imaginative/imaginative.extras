@@ -6,7 +6,8 @@
 			"camera": {"x": 0, "y": 0},
 			"color": "#31B0D1",
 			"icon": "bf",
-			"holdlength": 0.5 // putting 0 will have the anims play in full
+			"holdlength": 0.5, // putting 0 will have the anims play in full
+			"vocals": "lol" // this would be used for automatic detection, leave blank for json file name
 		},
 
 		// specific data for sprites that can bop to the beat
@@ -133,7 +134,7 @@
 						"id": 0,
 						"length": 100,
 						"time": 50,
-						"characters": [null], // if null or blank it uses the fields assigned characters
+						"characters": [null], // if blank it uses the fields assigned characters
 						"type": null
 					}
 				],
@@ -149,16 +150,19 @@
 			{
 				"tag": "bf",
 				"name": "boyfriend",
+				"vocals": "bf",
 				"position": "player"
 			},
 			{
 				"tag": "opponent",
 				"name": "dad",
+				"vocals": "dad",
 				"position": "enemy"
 			},
 			{
 				"tag": "coolswag",
 				"name": "pico",
+				"vocals": "pico mix be like",
 				"position": "player"
 			}
 		],
