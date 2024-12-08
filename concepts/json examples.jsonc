@@ -6,7 +6,7 @@
 			"camera": {"x": 0, "y": 0},
 			"color": "#31B0D1",
 			"icon": "bf",
-			"holdlength": 0.5, // putting 0 will have the anims play in full
+			"singlength": 4, // putting 0 will have the anims play in full
 			"vocals": "lol" // this would be used for automatic detection, leave blank for json file name
 		},
 
